@@ -1,3 +1,2 @@
-print("Hello from erg-erg")
-print("and make some change - 123")
-# commit made by er-erg
+t2 = (1, 2, 3)
+print(type(t2))
