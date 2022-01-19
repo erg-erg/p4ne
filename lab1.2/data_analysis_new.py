@@ -17,10 +17,10 @@ activity = list(map(getvalue, sheet['D'][1:]))
 pyplot.plot(years, temperature, label="Относит. температура")
 pyplot.plot(years, activity, label="Активность Солнца")
 
-# Украшаем график - добавляем надписи
+# Подписи графика
 pyplot.xlabel('Годы')
 pyplot.ylabel('Температура/Активность Солнца')
 pyplot.legend(loc='upper left')
 
-# Отображаем график
+# Отобразить график
 pyplot.show()
