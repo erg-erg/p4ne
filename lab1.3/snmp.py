@@ -1,3 +1,4 @@
+#20.01
 # импорт pysnmp, только High-level API
 from pysnmp.hlapi import *
 
